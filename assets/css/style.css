@@ -432,116 +432,40 @@ section {
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
-.skills h2{
-  font-weight:400;
-  letter-spacing: 1px;
-  margin-top: 40px;
-  margin-bottom: 5px;
-  color:#0e2442;
-  font-size: 20px;
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
 }
 
-.progres-bar{
-  background: #959595;
-  width: 600px;
-  height: 10px;
-  border-radius: 5px;
+.skills .progress .skill {
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
 }
 
-.progres-bar div{
-  height: 10px;
-  border-radius: 5px;
-  width: 0%;
-}
-
-.progres-bar div span{
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  background: #222;
+.skills .progress .skill .val {
   float: right;
-  margin-top: -15px;
-  margin-right: -20px;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  font-style: normal;
 }
 
-.python{
-  background: rgb(14, 138, 196);
-}
-.pytorch{
-  background: rgb(14, 138, 196);
-}
-.linux{
-  background: rgb(14, 138, 196);
-}
-.html{
-  background: rgb(14, 138, 196);
-}
-.javascript{
-  background: rgb(14, 138, 196);
-}
-.css{
-  background: rgb(14, 138, 196);
+.skills .progress-bar-wrap {
+  background: #dce8f8;
+  height: 10px;
 }
 
-.python span{
-  border: 1px solid rgb(14, 138, 196);
-  animation: python 1s linear forwards;
-}
-.pytorch span{
-  border: 1px solid rgb(14, 138, 196);
-  animation: pytorch 1s linear forwards;
-}
-.linux span{
-  border: 1px solid rgb(14, 138, 196);
-  animation: linux 1s linear forwards;
-}
-.html span{
-  border: 1px solid rgb(14, 138, 196);
-  animation: html 1s linear forwards;
-}
-.javascript span{
-  border: 1px solid rgb(14, 138, 196);
-  animation: javascript 1s linear forwards;
-}
-.css span{
-  border: 1px solid rgb(14, 138, 196);
-  animation: css 1s linear forwards;
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #149ddd;
 }
 
-@keyframes python{
-  100%{
-    width: 85%;
-  }
-}
-@keyframes pytorch{
-  100%{
-    width: 75%;
-  }
-}
-@keyframes linux{
-  100%{
-    width: 90%;
-  }
-}
-@keyframes html{
-  100%{
-    width: 80%;
-  }
-}
-@keyframes javascript{
-  100%{
-    width: 75%;
-  }
-}
-@keyframes css{
-  100%{
-    width: 80%;
-  }
-}
 
 
 
