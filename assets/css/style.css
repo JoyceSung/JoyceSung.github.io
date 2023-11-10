@@ -451,13 +451,13 @@ section {
 .progres-bar div{
   height: 10px;
   border-radius: 5px;
-  width: 50%;
+  width: 0%;
 }
 
 .progres-bar div span{
   height: 40px;
   width: 40px;
-  border-radius: 0%;
+  border-radius: 50%;
   background: #222;
   float: right;
   margin-top: -15px;
